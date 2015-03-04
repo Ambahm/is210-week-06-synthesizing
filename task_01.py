@@ -8,10 +8,10 @@ CURDATE = None
 
 
 def get_current_date():
-    """ A def for getting current date.
+    """ A function for returning current date.
 
     Returns:
-        datetime(string):  All arguments concatenated with commas.
+        datetime(object): Returns today using datetime.date.today module
 
     Examples:
         >>> get_current_date()
