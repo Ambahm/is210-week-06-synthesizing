@@ -36,5 +36,4 @@ def get_current_date():
 
 if __name__ == '__main__':
     CURDATE = get_current_date()
-
-print CURDATE
+    print CURDATE
