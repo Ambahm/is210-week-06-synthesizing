@@ -7,8 +7,8 @@ import datetime
 CURDATE = None
 
 def get_current_date():
-    
 
+    
     """A function using the datetime.date.today()
     to return the current day as a date object.
 
@@ -31,4 +31,5 @@ def get_current_date():
 
 CURDATE = get_current_date()
 
-print CURDATE
+if __name__ == '__main__':
+    print CURDATE
