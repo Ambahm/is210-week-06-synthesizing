@@ -18,5 +18,9 @@ def get_current_date():
     """
 
     today = datetime.date.today()
-   # CURDATE = today
+
     return today
+
+if __name__ == '__main__':
+    CURDATE = datetime.date.today()
+    print CURDATE
