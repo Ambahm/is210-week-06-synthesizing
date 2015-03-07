@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-""" Docstring. """
+""" Datetime Module defines a function get_current_date
+    and return today's day as date
+    CURDATE is assigned a value none in global scope
+    CURDATE is assigned today's date using the function
+    get_current_date. """
 
 import datetime
 CURDATE = None
