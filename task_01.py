@@ -16,7 +16,7 @@ def get_current_date():
     
     Returns:
     return the current date object.
-
+    
     Example:
         >>>get_current_date()
         datetime.date(2015, 3, 8)
