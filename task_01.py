@@ -19,9 +19,8 @@ def get_current_date():
     Examples:
         >>>task_01.get_current_date()
         datetime.date(2015, 3, 9)
-
-
     """
+
     return datetime.date.today()
 
 if __name__ == '__main__':
