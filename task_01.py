@@ -13,10 +13,10 @@ def get_current_date():
 
     Args:
     get_current_date(): take no parameters.
-    
+
     Returns:
     return the current date object.
-    
+
     Example:
         >>>get_current_date()
         datetime.date(2015, 3, 8)
