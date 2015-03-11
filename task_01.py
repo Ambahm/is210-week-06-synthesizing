@@ -29,7 +29,6 @@ def get_current_date():
     """
     return datetime.date.today()
 
-CURDATE = get_current_date()
+if __name__ == '__main__': CURDATE = get_current_date()
 
-if __name__ == '__main__':
-    print CURDATE
+print CURDATE
