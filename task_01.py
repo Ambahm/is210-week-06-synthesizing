@@ -15,7 +15,6 @@ def get_current_date():
 
     Return:
         To return the current date
-        
     Example:
         >>> import datetime
         >>> task_01.CURDATE
@@ -27,7 +26,3 @@ def get_current_date():
         2015-03-05
     """
     return datetime.date.today()
-
-if __name__ == '__main__': CURDATE = get_current_date()
-
-print CURDATE
