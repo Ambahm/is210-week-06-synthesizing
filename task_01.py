@@ -8,7 +8,7 @@ CURDATE = None
 
 
 def get_current_date():
-    """returns current date"""    
+    """returns current date"""
     return datetime.date.today()
 
 if __name__ == '__main__':
