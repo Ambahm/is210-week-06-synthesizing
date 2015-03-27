@@ -6,9 +6,8 @@ import datetime
 
 CURDATE = None
 
-def get_current_date():
 
-    
+def get_current_date():
     """A function using the datetime.date.today()
     to return the current day as a date object.
 
@@ -16,8 +15,7 @@ def get_current_date():
 
     Return:
         To return the current date
-        
-    Example:    
+    Example:
         >>> import datetime
         >>> task_01.CURDATE
         None
@@ -28,8 +26,3 @@ def get_current_date():
         2015-03-05
     """
     return datetime.date.today()
-
-CURDATE = get_current_date()
-
-if __name__ == '__main__':
-    print CURDATE
